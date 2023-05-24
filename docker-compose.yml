@@ -3,6 +3,6 @@ version : "3.0"
 
 services:
   python-app:
-    image : ${DOCKER_USER_ID}/ossp_week9
+    image : ${DOCKER_USR}/ossp_week9
     build : .
    
