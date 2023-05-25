@@ -2,7 +2,10 @@
 version : "3.0"
 
 services:
-  python-app:
+  main-app:
     image : ${DOCKER_USR}/ossp_week9
-    build : .
+    build : ./main
+  hello-app:
+    image : ${DOCKER_USR}/ossp_week9
+    build : ./hello
    
